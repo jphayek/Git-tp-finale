@@ -1,3 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5rem;
+}
 
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #FFF;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #C5CF4B;
+  border-radius: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: #130f40;
+}
+
+p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.7rem;
+  color: #666;
+}
+
+span {
+  font-family: "Satisfy", cursive;
+  font-size: 5rem;
+  color: #E7AE5A;
+}
+
+.footer {
+  background: #f7f7f7;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #C5CF4B;
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+.header .logo {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #130f40;
+}
+
+.header .logo img {
+  padding-right: 1em;
+  color: #C5CF4B;
+  width: 2.5em;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: rgb(10, 9, 9);
+  background: #C5CF4B;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background: #130f40;
+  color: #fff;
+}
+
+.navbar a {
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  color: #666;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.icons div:hover {
+  color: #fff;
+  background: #C5CF4B;
+}
+
+.icons {
+  display: flex;
+}
+
+#search-btn img {
+  width: 2.5em;
+}
+
+#cart-btn img {
+  width: 2.5em;
+}
+
+#login-btn img {
+  width: 2.5em;
+  height: 2.5em;
+}
 
 /*# sourceMappingURL=main.css.map */
