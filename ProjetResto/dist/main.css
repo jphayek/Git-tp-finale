@@ -128,4 +128,16 @@ span {
   height: 2.5em;
 }
 
+#menu-btn {
+  display: none;
+}
+
+#search-btn {
+  margin-right: 20px;
+}
+
+#login-btn {
+  margin-left: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */
