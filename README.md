@@ -6,5 +6,5 @@ Exam Git
 <<<<<<< HEAD
 >>>>>>> initial
 =======
-## Une modif pour faire un commit
+## Une modif pour faire un commitsssss
 >>>>>>> Readme
