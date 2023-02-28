@@ -1,0 +1,19 @@
+@import 'partials/variables';
+@import 'partials/fonts';
+@import 'partials/functions';
+@import 'partials/globals';
+
+
+//component 
+@import 'components/header';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/icons';
+@import 'components/img';
+
+@import 'components/buttons/menu-btn';
+@import 'components/buttons/search-btn';
+@import 'components/buttons/cart-btn';
+@import 'components/buttons/login-btn';
+@import 'components/section';
+@import 'components/search-form-container';
