@@ -10,8 +10,32 @@
 @import 'components/navbar';
 @import 'components/icons';
 @import 'components/img';
-
 @import 'components/buttons/menu-btn';
 @import 'components/buttons/search-btn';
 @import 'components/buttons/cart-btn';
 @import 'components/buttons/login-btn';
+
+@import 'components/webkit';
+@import 'components/section';
+@import 'components/search-form-container';
+@import 'components/shopping-cart-container';
+@import 'components/login';
+@import 'components/home';
+@import 'components/button';
+@import 'components/category';
+@import 'components/about';
+@import 'components/content';
+@import 'components/popular/heading';
+@import 'components/popular/box-container';
+@import 'components/popular/box';
+@import 'components/banner';
+@import 'components/menu/box-container';
+@import 'components/menu/box';
+@import 'components/order';
+@import 'components/blog';
+@import 'components/footer/newsletter';
+@import 'components/footer/box-container';
+@import 'components/footer/box';
+@import 'components/footer/bottom';
+@import 'components/footer/credit';
+@import 'components/mediaquery';

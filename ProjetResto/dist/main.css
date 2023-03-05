@@ -1,132 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-* {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: .2s linear;
-  transition: .2s linear; }
+/*
+Error: File to import not found or unreadable: components/webkit.
+        on line 18 of src/scss/main.scss
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  scroll-padding-top: 8.5rem; }
+13: @import 'components/buttons/menu-btn';
+14: @import 'components/buttons/search-btn';
+15: @import 'components/buttons/cart-btn';
+16: @import 'components/buttons/login-btn';
+17: 
+18: @import 'components/webkit';
+19: @import 'components/section';
+20: @import 'components/search-form-container';
+21: @import 'components/shopping-cart-container';
+22: @import 'components/login';
+23: @import 'components/home';
 
-html::-webkit-scrollbar {
-  width: 1rem; }
-
-html::-webkit-scrollbar-track {
-  background: #FFF; }
-
-html::-webkit-scrollbar-thumb {
-  background: #C5CF4B;
-  border-radius: 5rem; }
-
-a {
-  text-decoration: none; }
-
-h3 {
-  font-size: 1.7rem;
-  color: #130f40; }
-
-p {
-  padding: 1rem 0;
-  line-height: 2;
-  font-size: 1.7rem;
-  color: #666; }
-
-span {
-  font-family: 'Satisfy', cursive;
-  font-size: 5rem;
-  color: #E7AE5A; }
-
-.footer {
-  background: #f7f7f7; }
-
-.header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: #C5CF4B;
-  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 2rem 9%; }
-
-.header .logo {
-  display: flex;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: #130f40; }
-
-.header .logo img {
-  padding-right: 1.0em;
-  color: #C5CF4B;
-  width: 2.5em; }
-
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: .7rem 1.8rem;
-  font-size: 1.7rem;
-  cursor: pointer;
-  color: #0a0909;
-  background: #C5CF4B;
-  border-radius: .5rem; }
-  .btn:hover {
-    background: #130f40;
-    color: #fff; }
-
-.navbar a {
-  font-size: 1.7rem;
-  margin: 0 1rem;
-  color: #666; }
-
-.navbar a:hover {
-  color: #fff; }
-
-.icons div:hover {
-  color: #fff;
-  background: #C5CF4B; }
-
-.icons {
-  display: flex; }
-
-#search-btn img {
-  width: 2.5em; }
-
-#cart-btn img {
-  width: 2.5em; }
-
-#login-btn img {
-  width: 2.5em;
-  height: 2.5em; }
-
-#menu-btn {
-  display: none; }
-
-#search-btn {
-  margin-right: 20px; }
-
-#login-btn {
-  margin-left: 20px; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+src/scss/main.scss:18
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:44:in `import'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: components/webkit.\A         on line 18 of src/scss/main.scss\A \A 13: @import 'components/buttons/menu-btn';\A 14: @import 'components/buttons/search-btn';\A 15: @import 'components/buttons/cart-btn';\A 16: @import 'components/buttons/login-btn';\A 17: \A 18: @import 'components/webkit';\A 19: @import 'components/section';\A 20: @import 'components/search-form-container';\A 21: @import 'components/shopping-cart-container';\A 22: @import 'components/login';\A 23: @import 'components/home';"; }
