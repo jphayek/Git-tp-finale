@@ -1,0 +1,54 @@
+.box {
+    border-radius: .5rem;
+    position: relative;
+    background: #f7f7f7;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box img.heart {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+    width: 3em;
+}
+
+.box img.heart:hover {
+
+    fill: red;
+}
+
+
+.box .image {
+    margin: 1rem 0;
+}
+
+.box .image img {
+    height: 15rem;
+}
+
+.box .content h3 {
+    font-size: 2rem;
+    color: #130f40;
+}
+
+.box .content img.stars {
+    padding: 1rem 0;
+    width: 1.7rem;
+}
+
+.box .content img.stars:hover {
+    cursor: pointer;
+}
+
+
+.box .content .stars span {
+    color: #666;
+    font-size: 2rem;
+}
+
+.box .content .price {
+    font-size: 2rem;
+    color: #130f40;
+}
