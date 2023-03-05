@@ -1,21 +1,21 @@
 /*
-Error: File to import not found or unreadable: components/webkit.
-        on line 18 of src/scss/main.scss
+Error: File to import not found or unreadable: components/category.
+        on line 25 of src/scss/main.scss
 
-13: @import 'components/buttons/menu-btn';
-14: @import 'components/buttons/search-btn';
-15: @import 'components/buttons/cart-btn';
-16: @import 'components/buttons/login-btn';
-17: 
-18: @import 'components/webkit';
-19: @import 'components/section';
 20: @import 'components/search-form-container';
 21: @import 'components/shopping-cart-container';
 22: @import 'components/login';
 23: @import 'components/home';
+24: @import 'components/button';
+25: @import 'components/category';
+26: @import 'components/about';
+27: @import 'components/content';
+28: @import 'components/popular/heading';
+29: @import 'components/popular/box-container';
+30: @import 'components/popular/box';
 
 Backtrace:
-src/scss/main.scss:18
+src/scss/main.scss:25
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:44:in `import'
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -60,4 +60,4 @@ src/scss/main.scss:18
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: components/webkit.\A         on line 18 of src/scss/main.scss\A \A 13: @import 'components/buttons/menu-btn';\A 14: @import 'components/buttons/search-btn';\A 15: @import 'components/buttons/cart-btn';\A 16: @import 'components/buttons/login-btn';\A 17: \A 18: @import 'components/webkit';\A 19: @import 'components/section';\A 20: @import 'components/search-form-container';\A 21: @import 'components/shopping-cart-container';\A 22: @import 'components/login';\A 23: @import 'components/home';"; }
+  content: "Error: File to import not found or unreadable: components/category.\A         on line 25 of src/scss/main.scss\A \A 20: @import 'components/search-form-container';\A 21: @import 'components/shopping-cart-container';\A 22: @import 'components/login';\A 23: @import 'components/home';\A 24: @import 'components/button';\A 25: @import 'components/category';\A 26: @import 'components/about';\A 27: @import 'components/content';\A 28: @import 'components/popular/heading';\A 29: @import 'components/popular/box-container';\A 30: @import 'components/popular/box';"; }
