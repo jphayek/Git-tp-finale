@@ -67,6 +67,6 @@ membres de la direction du projet.
 
 ## Attribution
 
-Ce code de conduite est adapté du [Contributor Covenant][homepage]
+Ce code de conduite est adapté a [Jean-Paul Hayek][homepage]
 
 [homepage]: jphayek1@gmail.com
