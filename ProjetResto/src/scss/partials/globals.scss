@@ -1,44 +1,62 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+
+
 html {
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 8.5rem;
-  }
-  
-  html::-webkit-scrollbar {
-    width: 1rem;
-  }
-  
-  html::-webkit-scrollbar-track {
-    background: $white;
-  }
-  
-  html::-webkit-scrollbar-thumb {
-    background: $green;
-    border-radius: 5rem;
-  }
-  a{
-    text-decoration: none;
-  }
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.5rem;
+}
 
-  h3 {
-    font-size: 1.7rem;
-    color: $blue;
-  }
+html::-webkit-scrollbar {
+  width: 1rem;
+}
 
-  p {
-    padding: 1rem 0;
-    line-height: 2;
-    font-size: 1.7rem;
-    color: #666;
-  }
-  span {
-    font-family: 'Satisfy', cursive;
-    font-size: 5rem;
-    color: #E7AE5A;
-  
-  }
-  .footer {
-    background: #f7f7f7;
-  }
-  
+html::-webkit-scrollbar-track {
+  background: $white;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: $green;
+  border-radius: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: $blue;
+}
+
+p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.7rem;
+  color: #666;
+}
+
+span {
+  font-family: 'Satisfy', cursive;
+  font-size: 5rem;
+  color: #E7AE5A;
+
+}
+
+.footer {
+  background: #f7f7f7;
+}
