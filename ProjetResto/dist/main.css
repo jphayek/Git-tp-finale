@@ -1,21 +1,16 @@
 /*
-Error: File to import not found or unreadable: components/content.
-        on line 27 of src/scss/main.scss
+Error: File to import not found or unreadable: components/mediaquery.
+        on line 41 of src/scss/main.scss
 
-22: @import 'components/login';
-23: @import 'components/home';
-24: @import 'components/button';
-25: @import 'components/category';
-26: @import 'components/about';
-27: @import 'components/content';
-28: @import 'components/popular/heading';
-29: @import 'components/popular/box-container';
-30: @import 'components/popular/box';
-31: @import 'components/banner';
-32: @import 'components/menu/box-container';
+36: @import 'components/footer/newsletter';
+37: @import 'components/footer/box-container';
+38: @import 'components/footer/box';
+39: @import 'components/footer/bottom';
+40: @import 'components/footer/credit';
+41: @import 'components/mediaquery';
 
 Backtrace:
-src/scss/main.scss:27
+src/scss/main.scss:41
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:44:in `import'
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -60,4 +55,4 @@ src/scss/main.scss:27
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: components/content.\A         on line 27 of src/scss/main.scss\A \A 22: @import 'components/login';\A 23: @import 'components/home';\A 24: @import 'components/button';\A 25: @import 'components/category';\A 26: @import 'components/about';\A 27: @import 'components/content';\A 28: @import 'components/popular/heading';\A 29: @import 'components/popular/box-container';\A 30: @import 'components/popular/box';\A 31: @import 'components/banner';\A 32: @import 'components/menu/box-container';"; }
+  content: "Error: File to import not found or unreadable: components/mediaquery.\A         on line 41 of src/scss/main.scss\A \A 36: @import 'components/footer/newsletter';\A 37: @import 'components/footer/box-container';\A 38: @import 'components/footer/box';\A 39: @import 'components/footer/bottom';\A 40: @import 'components/footer/credit';\A 41: @import 'components/mediaquery';"; }
