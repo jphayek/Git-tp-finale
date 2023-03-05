@@ -6,6 +6,12 @@
 # Demo
 Insert gif or link to demo
 
+# Contributing
+Les contributions sont toujours les bienvenues !
+
+Voir /*contributing.md*/ for ways to get started.
+
+Veuillez adhérer au /*code of conduct*/ de ce projet.
 # Documentation:
 [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
