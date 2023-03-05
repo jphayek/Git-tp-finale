@@ -1,9 +1,7 @@
 /*
-Error: File to import not found or unreadable: components/category.
-        on line 25 of src/scss/main.scss
+Error: File to import not found or unreadable: components/content.
+        on line 27 of src/scss/main.scss
 
-20: @import 'components/search-form-container';
-21: @import 'components/shopping-cart-container';
 22: @import 'components/login';
 23: @import 'components/home';
 24: @import 'components/button';
@@ -13,9 +11,11 @@ Error: File to import not found or unreadable: components/category.
 28: @import 'components/popular/heading';
 29: @import 'components/popular/box-container';
 30: @import 'components/popular/box';
+31: @import 'components/banner';
+32: @import 'components/menu/box-container';
 
 Backtrace:
-src/scss/main.scss:25
+src/scss/main.scss:27
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:44:in `import'
 /var/lib/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -60,4 +60,4 @@ src/scss/main.scss:25
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: components/category.\A         on line 25 of src/scss/main.scss\A \A 20: @import 'components/search-form-container';\A 21: @import 'components/shopping-cart-container';\A 22: @import 'components/login';\A 23: @import 'components/home';\A 24: @import 'components/button';\A 25: @import 'components/category';\A 26: @import 'components/about';\A 27: @import 'components/content';\A 28: @import 'components/popular/heading';\A 29: @import 'components/popular/box-container';\A 30: @import 'components/popular/box';"; }
+  content: "Error: File to import not found or unreadable: components/content.\A         on line 27 of src/scss/main.scss\A \A 22: @import 'components/login';\A 23: @import 'components/home';\A 24: @import 'components/button';\A 25: @import 'components/category';\A 26: @import 'components/about';\A 27: @import 'components/content';\A 28: @import 'components/popular/heading';\A 29: @import 'components/popular/box-container';\A 30: @import 'components/popular/box';\A 31: @import 'components/banner';\A 32: @import 'components/menu/box-container';"; }
